@@ -12,6 +12,7 @@ body {
 
 /* El contenedor principal que simula la ventana de la consola */
 .window-console {
+    overflow-x: auto;
     width: 800px;
     background-color: #121212;
     border: 2px solid #333333;
