@@ -1,6 +1,10 @@
 /* Configuración del fondo para simular una pantalla de terminal */
 body {
-    background-color: #0c0c0c;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.85) 100%), url('img/unillanos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     color: #ffffff;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
