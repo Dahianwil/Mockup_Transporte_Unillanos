@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mockup - Sistema de Gestión de Rutas UNILLANOS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="window-console">
+    <div class="window-header">
+        <div>💻 unillanos_transport_system.exe</div>
+        <div class="window-controls"><span>─</span> <span>▢</span> <span>✕</span></div>
+    </div>
+
+    <div class="terminal-body">
+        <div class="ascii-header">===================================================================
+   UNIVERSIDAD DE LOS LLANOS - SISTEMA DE GESTIÓN DE TRANSPORTE
+===================================================================</div>
+        
+        <div class="sys-info">[INFO] Cargando horarios desde archivos secuenciales (horarios.dat)... OK</div>
+        <div class="sys-info">[INFO] Estado de la conexión de buses (Apuntadores en memoria)... OK</div>
+
+        <div><strong>[PANTALLA: CONSULTA DE RUTAS EN TIEMPO REAL]</strong></div>
+        
+        <div class="divider">+---------+----------------------+----------+----------------+---------+</div>
+        <table class="table-console">
+            <thead>
+                <tr>
+                    <th>ID RUTA</th>
+                    <th>DESTINO</th>
+                    <th>HORARIO</th>
+                    <th>BUS ASIGNADO</th>
+                    <th>ESTADO</th>
+                </tr>
+            </thead>
+            <tbody>
+                <div class="divider">+---------+----------------------+----------+----------------+---------+</div>
+                <tr>
+                    <td>R-01</td>
+                    <td>Centro (Principal)</td>
+                    <td>06:15 AM</td>
+                    <td>BUS-101 (V-1)</td>
+                    <td><span class="status-alert">LLENO</span></td>
+                </tr>
+                <tr>
+                    <td>R-02</td>
+                    <td>Barrio Porfía</td>
+                    <td>06:30 AM</td>
+                    <td>BUS-105 (V-2)</td>
+                    <td><span class="status-ok">18 / 35</span></td>
+                </tr>
+                <tr>
+                    <td>R-03</td>
+                    <td>Barrio San Benito</td>
+                    <td>07:00 AM</td>
+                    <td>BUS-102 (V-1)</td>
+                    <td><span class="status-ok">05 / 35</span></td>
+                </tr>
+                <tr>
+                    <td>R-04</td>
+                    <td>Campus Barcelona</td>
+                    <td>07:15 AM</td>
+                    <td>BUS-109 (V-2)</td>
+                    <td><span class="status-ok">32 / 40</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="divider">+---------+----------------------+----------+----------------+---------+</div>
+
+        <div style="margin-top: 15px; color: #aaaaaa;">
+            Opciones: [M] Volver al Menú Principal  |  [R] Recargar Información
+        </div>
+
+        <div class="prompt">
+            <span>Seleccione una opción: _</span>
+            <span class="cursor"></span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
