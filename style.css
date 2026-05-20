@@ -8,11 +8,12 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 10px;
 }
 
 /* El contenedor principal que simula la ventana de la consola */
 .window-console {
-    overflow-x: auto;
+    overflow-x: scroll;
     width: 800px;
     background-color: #121212;
     border: 2px solid #333333;
